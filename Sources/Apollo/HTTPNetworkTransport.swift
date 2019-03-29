@@ -78,7 +78,7 @@ public class HTTPNetworkTransport: NetworkTransport {
     let body = requestBody(for: operation)
     var request = URLRequest(url: self.url)
     
-    if let urlForGet = mountUrlWithQueryParamsIfNeeded(body: body) {
+    if operationMethod == "GET", let urlForGet = mountUrlWithQueryParamsIfNeeded(body: body) {
         request = URLRequest(url: urlForGet)
     }
     
