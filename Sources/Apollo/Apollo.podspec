@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-    s.name         = 'Apollo'
-    s.version      = '0.9.5b'
+    s.name         = 'ApolloJarvis'
+    s.version      = '0.9.5c'
     s.summary      = 'A GraphQL client for iOS, written in Swift.'
     s.description  = 'MarketplaceServerClient is a GraphQL client developed to handle with requests for Marketplace\'s projects'
     s.homepage     = 'https://gitlab.globoi.com/playground-components/jarvis-client-ios'
