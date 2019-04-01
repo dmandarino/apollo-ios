@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.ios.deployment_target  = '9.0'
     s.dependency 'WebSocket', '~> 3.0.2'
-    s.dependency 'SQLite.swift', '~> ~> 0.11.4'
+    s.dependency 'SQLite.swift', '~> 0.11.4'
 end
