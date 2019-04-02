@@ -8,15 +8,7 @@
 
 import Foundation
 
-public enum MethodType: String {
+public enum FetchOptions: String {
     case GET
     case POST
-}
-
-public class FetchOptions {
-    public static let shared = FetchOptions()
-    
-    public var method: MethodType = .GET
-    
-    private init() {}
 }
